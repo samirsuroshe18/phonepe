@@ -183,7 +183,7 @@ const Checkout = () => {
 
     setIsLoading(true);
     try {
-      const response = await axios.post('http://localhost:8070/create-order', data);
+      const response = await axios.post('https://smartdwell.in/phonepe/create-order', data);
       setSuccessMessage('Redirecting to payment gateway...');
       window.location.href = response.data.url;
     } catch (error) {

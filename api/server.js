@@ -20,7 +20,7 @@ const MERCHANT_ID="M22V65UE2MMSS"
 const MERCHANT_BASE_URL="https://api.phonepe.com/apis/hermes/pg/v1/pay"
 const MERCHANT_STATUS_URL="https://api.phonepe.com/apis/hermes/pg/v1/status"
 
-const redirectUrl="https://smartdwelliot.in/phonepe/status"
+const redirectUrl="https://smartdwell.in/phonepe/status"
 
 const successUrl="http://localhost:5173/payment-success"
 const failureUrl="http://localhost:5173/payment-failure"
