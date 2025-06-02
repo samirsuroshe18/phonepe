@@ -22,8 +22,8 @@ const MERCHANT_STATUS_URL="https://api.phonepe.com/apis/hermes/pg/v1/status"
 
 const redirectUrl="https://smartdwell.in/phonepe/status"
 
-const successUrl="http://localhost:5173/payment-success"
-const failureUrl="http://localhost:5173/payment-failure"
+const successUrl="https://smartdwell.in/payment-success"
+const failureUrl="https://smartdwell.in/payment-failure"
 
 
 app.post('/create-order', async (req, res) => {
